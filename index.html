@@ -70,36 +70,18 @@
                         
 	
 	
-	<form action="formulaire.php" method="post">
-        <fieldset>
-	<legend>Resultat  du tirage</legend>
-
-	<span class="champ">Numero de tirage </span>        
-	<input type="number" name="Numero"   placeholder=" ex:123456789 " required><br>
-        <span class="champ">    Date  </span>
-	<input type="Date" name="Date" required>
-	
-
-
-		<span class="champ">Resultat de Tirage B1</span>     <input type="number" name="B1" min="1" max="100" step="1" required><br>
-		<span class="champ">Resultat de Tirage B2</span>     <input type="number" name="B2" min="1" max="100" step="1" required><br>
-		<span class="champ">Resultat de Tirage B3</span>     <input type="number" name="B3" min="1" max="100" step="1" required><br>
-		<span class="champ">Resultat de Tirage B4</span>     <input type="number" name="B4" min="1" max="100" step="1" required><br>
-		<span class="champ">Resultat de Tirage B5</span>     <input type="number" name="B5" min="1" max="100" step="1" required><br>
-		<span class="champ">Numero de la chance  </span>     <input type="number" name="chance" min="1" max="10" step="1" required><br>
-
-
-</fieldset>
-
-
-
-    <input type="submit"    value="Envoyer">
-
-     
-
-
-	</form>
+	<section>
+  <form id="form">
+	  
+  <div class="form-group">
+    <label for="exampleInputEmail1">Your Name</label>
+    <input type="text" class="form-control" name="Nom" placeholder="Enter Votre Nom" id="nom">
     
+  </div>
+  
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+	</section>
     
 </body>
 </html>
