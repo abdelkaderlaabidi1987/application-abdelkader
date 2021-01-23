@@ -15,7 +15,7 @@
       {
         "src": "images/icons-16.png",
         "type": "image/png",
-        "sizes": "16x16"
+        "sizes": "16x16",
         "purpose": "any maskable"
       },
       {
