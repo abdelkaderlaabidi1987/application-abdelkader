@@ -5,6 +5,7 @@
     "display": "standalone",
     "theme_color": "#ff0000",
     "start_url": "/application-abdelkader/index.html",
+    "prefer_related_applications": "false"
     
     
     
@@ -21,9 +22,6 @@
         "type": "image/png",
         "sizes": "512x512"
       }
-    ]
-    
-   
-    
-    
-  }
+ ],
+ "prefer_related_applications": "false"
+}
