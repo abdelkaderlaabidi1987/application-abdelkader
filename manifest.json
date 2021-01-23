@@ -1,9 +1,9 @@
 {
     "short_name": "abdelkader",
     "name": "application",
-    "background_color": "#000000",
+    "background_color": "#2BF01B",
     "display": "standalone",
-    "theme_color": "#ff0000",
+    "theme_color": "#FE2EF2",
          
     
     "icons": 
