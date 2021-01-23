@@ -1,11 +1,19 @@
 {
-    "short_name": "PWA1",
-    "name": "My PWA 1st Prototype",
+    "short_name": "abdelkader",
+    "name": "application",
+    "background_color": "#000000",
+    "display": "standalone",
+    "theme_color": "#ff0000"
+    "start_url": "/application-abdelkader/index.html",
+    
+    
+    
+    
     "icons": [
       {
-        "src": "/images/icons-192.png",
+        "src": "/images/icons-96.png",
         "type": "image/png",
-        "sizes": "192x192"
+        "sizes": "96x96"
       },
       {
         "src": "/images/icons-512.png",
@@ -13,10 +21,8 @@
         "sizes": "512x512"
       }
     ],
-    "start_url": "/application-abdelkader/index.html",
+    
    
     
-    "background_color": "#000000",
-    "display": "standalone",
-    "theme_color": "#ff0000"
+    
   }
