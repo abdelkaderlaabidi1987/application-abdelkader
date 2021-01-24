@@ -10,15 +10,15 @@
     <link rel="manifest" href="manifest.json">
     
     <script>
-        //if browser support service worker
-        if('serviceWorker' in navigator) {
-          navigator.serviceWorker.register('sw.js');
-        };
+        
+        if('serviceWorker' in navigator)
+         {navigator.serviceWorker.register('sw.js'); };
+	    
 	 let form=document.getElementById('form');
 	 let name=document.getElementById('nom');
 	    
-	  form.addEventListener('submit',(event)=>{
-		  event.preventDefault();
+	  form.addEventListener('submit',(event)=>
+	{         event.preventDefault();
 		  let storage=name.value;
 		  localStorage.setItem('name',storage);
 	  });
@@ -69,8 +69,8 @@
 			<h1 style=" 
 			font-size: 60px;
 			font-family: Freestyle Script; 
-			border: 2px solid blue;
-			/**background: content-box radial-gradient(crimson, skyblue);**/
+			border: 2px solid red;
+			background-color:blue;
 			text-align: center; 
 			height: 1.2em;
 			margin:5px 5px 5px 5px;
