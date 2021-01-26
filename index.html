@@ -13,14 +13,7 @@
          if('serviceWorker' in navigator)
          {navigator.serviceWorker.register('sw.js'); };
 		 
-	 let form=document.getElementById("form");
-	 let name=document.getElementById("nom");
-		 
-	 form.addEventListener('submit',(event)=>
-	{         event.preventDefault();
-		  let storage=name.value;
-		  localStorage.setItem('name', storage);
-	  });
+	 
 	</script>
 
     <style>
@@ -83,6 +76,26 @@
 <button type="submit" class="btn btn-primary">Envoyer</button>
 </form>
 </section>
+	
+	<script>
+         		 
+	 let form=document.getElementById("form");
+	 let name=document.getElementById("nom");
+		 
+	 form.addEventListener('submit',(event)=>
+	{         event.preventDefault();
+		  let storage=name.value;
+		  localStorage.setItem('name', storage);
+	  });
+	</script>
+	
+	
+	
+	
+	
+	
+	
+	
                         
 
     
