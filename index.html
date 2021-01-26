@@ -9,23 +9,17 @@
     <link rel="apple-touch-icon" href="/example.png">
     <link rel="manifest" href="manifest.json">
     
-    <script>
-        
-        if('serviceWorker' in navigator)
+         <script>
+         if('serviceWorker' in navigator)
          {navigator.serviceWorker.register('sw.js'); };
-	    
 	 let form=document.getElementById('form');
 	 let name=document.getElementById('nom');
-	    
-	  form.addEventListener('submit',(event)=>
+	 form.addEventListener('submit',(event)=>
 	{         event.preventDefault();
 		  let storage=name.value;
 		  localStorage.setItem('name',storage);
 	  });
-	  
-	    
-	    
-    </script>
+	</script>
 
     <style>
         body
