@@ -15,17 +15,7 @@
 		 
 	 
 	</script>
-	<script>
-         		 
-	 let form=document.getElementById("form");
-	 let name=document.getElementById("nom");
-		 
-	 form.addEventListener('submit',(event)=>
-	{         event.preventDefault();
-		  let storage=name.value;
-		  localStorage.setItem('name', storage);
-	  });
-	</script>
+	
 
     <style>
         body
@@ -78,6 +68,8 @@
 			border-radius: 10px;
 			"> <em > <samp style="color: white" id="DECOUVRIR">P.W.A SYNVA</samp></em> 
 			</h1>	
+	
+	
 <section class='jumbotron'>
 <form id="form">
 <div class="form-group">
@@ -87,6 +79,16 @@
 <button type="submit" class="btn btn-primary">Envoyer</button>
 </form>
 </section>
+	
+<script>
+let form=document.getElementById("form");
+let name=document.getElementById("nom"); 
+form.addEventListener('submit',(event)=>
+{event.preventDefault();
+let storage=name.value;
+localStorage.setItem('name', storage);
+});
+</script>
 	
 	
 	
